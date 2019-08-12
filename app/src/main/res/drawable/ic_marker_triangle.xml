@@ -1,0 +1,6 @@
+<vector android:autoMirrored="true" android:height="24dp"
+    android:viewportHeight="1024" android:viewportWidth="1024"
+    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff" android:name="Polygon 1 copy" android:pathData="m1024 952.8 -1011 2.3 503.6 -877 507.4 874.8z"/>
+    <path android:fillColor="#ff0000" android:name="@string/marker_background" android:pathData="m902 883 -767 1.7 382 -666.1 385 664.4z"/>
+</vector>

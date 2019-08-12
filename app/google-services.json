@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "408599537542",
+    "firebase_url": "https://mountainapp-de974.firebaseio.com",
+    "project_id": "mountainapp-de974",
+    "storage_bucket": "mountainapp-de974.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408599537542:android:a02110aca825cf73",
+        "android_client_info": {
+          "package_name": "com.tmz.razvan.mountainapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408599537542-sto8dgcuisocf4n2i0gm27n3fehrjlto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tmz.razvan.mountainapp",
+            "certificate_hash": "1e1335a329e8d958c3b2573e1d2a56eb2fa5b694"
+          }
+        },
+        {
+          "client_id": "408599537542-3f865ns7ff9dq1n1098kcs6hub3306o5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvB-JRvMBMahBy3kbk3VvF5Yf020i_bVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408599537542-3f865ns7ff9dq1n1098kcs6hub3306o5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable = "@drawable/ic_hearth_full"
+        android:state_checked="true"
+        android:tint="@android:color/holo_red_light"
+        />
+    <item android:drawable="@drawable/ic_hearth_outline"
+        android:state_checked="false"/>
+</selector>

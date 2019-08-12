@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar_with_back_button"/>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        tools:context=".activities.HikeMapActivity" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_map_add_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_vector_menu_stripes"
+        android:layout_above="@+id/navigation"
+        android:layout_margin="16dp" />
+    <include layout="@layout/menu_map_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/rl_map_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/rl_add_bookmark_container"
+            >
+            <TextView
+                android:id="@+id/tv_map_add_feature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/fab_map_add_feature"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="add_feature"
+                android:textStyle="bold"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_map_add_feature"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_hearth_full"
+                android:layout_marginEnd="17dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_add_bookmark_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+            <TextView
+                android:id="@+id/tv_map_add_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/fab_map_add_note"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="Add_personal_note"
+                android:textStyle="bold"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_map_add_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_hearth_full"
+                android:layout_margin="16dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<vector android:autoMirrored="true" android:height="24dp"
+    android:viewportHeight="1024" android:viewportWidth="1024"
+    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff" android:name="Rectangle 1" android:pathData="m0 -2h1024v1026h-1024v-1026z"/>
+    <path android:fillColor="#ff0000" android:name="@string/marker_background" android:pathData="m122 137h781v748h-781v-748z"/>
+</vector>

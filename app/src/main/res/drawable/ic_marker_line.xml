@@ -1,0 +1,10 @@
+<vector android:autoMirrored="true" android:height="24dp"
+    android:viewportHeight="1250" android:viewportWidth="1330"
+    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="@string/marker_background" android:fillColor="#fcf108"
+        android:pathData="M10,620l0,-610 650,0 650,0 0,610 0,610 -650,0 -650,0 0,-610z" android:strokeColor="#00000000"/>
+     <path android:fillColor="#fefefd"
+        android:pathData="M10,620l0,-610 220,0 220,0 0,610 0,610 -220,0 -220,0 0,-610z" android:strokeColor="#00000000"/>
+    <path android:fillColor="#fefefd"
+        android:pathData="M840,620l0,-610 235,0 235,0 0,610 0,610 -235,0 -235,0 0,-610z" android:strokeColor="#00000000"/>
+</vector>

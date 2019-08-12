@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/black" android:state_enabled="true"  android:drawable="@drawable/custom_edit_text_line" />
+    <item
+        android:color="@color/lightBlue"
+        android:state_enabled="false"
+        android:drawable="@drawable/custom_edit_text_no_line" />
+</selector>
